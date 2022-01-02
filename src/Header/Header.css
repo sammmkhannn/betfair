@@ -1,0 +1,246 @@
+.header{
+    background-color: #FFB80C;
+    display: flex;
+    height: 40px;
+
+}
+/* .containerBody{
+    
+} */
+.headings h1{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    font-family: Arial,Tahoma,Verdana,Helvetica,sans-serif;
+}
+/* .mainSpan{
+
+}
+.ArrowUp{
+  
+}
+.ArrowDown{
+   
+} */
+.headerUL ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 11px;
+    font-family: Arial,Tahoma,Verdana,Helvetica,sans-serif;
+    font-weight: bold;
+}
+
+
+.headerUL li{
+    display: inline-block;
+    padding: 12px;
+}
+.inputContainer{
+    width: 28%;
+    font-family: Arial,Tahoma,Verdana,Helvetica,sans-serif;
+    text-align: center;
+    /* background-color: red; */
+    margin-left: 25px;
+}
+.InputForm{
+    padding: 10px;
+}
+.searchInput{
+    width: 88%;
+    font-size: 12px;
+    position: relative;
+    border: transparent;
+    line-height: 2;
+    
+}
+.searchIcon{
+    border: transparent;
+    background: transparent;
+    position: absolute;
+    margin-left: -27px;
+}
+.Mobile{
+        height: 22px;
+        vertical-align: top;
+        width: 12px;
+}
+.DepositButton{
+    padding: 10px;
+    
+}
+.DepositButton button{
+    background: #C3C3C3;
+    color: black;
+    font-size: 12px;
+}
+.DepositButton button{
+    font-weight: bold;
+    border: transparent;
+    background: linear-gradient(#b3b3b3,#9a9a9a);
+}
+
+.myAccountDropDown{
+    /* background-color: red; */
+    margin-top: 8px;
+}
+/* .myAccountDropDown:hover{
+    
+} */
+/* -------------------------- second Navbar -------- */
+
+
+.sajid.dropdown-menu.show{
+    /* background: red; */
+    margin-left: -100px;
+    width: 99px;    
+    margin-left: -120px;
+    margin-top: -10px;
+    width: 99px;
+}
+
+
+.secondNavbar{
+    background-color: #FFB80C;
+}
+.Exchange{
+    font-size: 12px;
+    margin-left: -75px;
+   
+}
+.secondNavLink{
+    color: black !important;
+    font-weight: bold !important;
+    display: flex;
+}
+.secondNavLink1 button{
+    color: black !important;
+    font-weight: bold !important;
+    font-size: 12px;
+    margin-left: -127px;
+    border: transparent;
+    background: transparent;
+    
+}
+
+.DropDownButton{
+    background: transparent;
+    color: black;
+    font-size: 12px;
+    
+}
+.DropdownMenuButton button{
+    display: flex;
+    border: transparent;
+    background: transparent;
+    font-weight: bold;
+    font-size: 12px;
+   
+    
+}
+.cashBalance{
+    background-color: #DFDFDF;
+}
+
+.BonusBalance{
+    background-color: #DFDFDF;
+}
+
+.ExchangeBonus{
+    display: flex !important;
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+.ViewDetail{
+    display: flex !important;
+    width: 186px;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: flex-end;
+}
+.ViewDetail button{
+    font-size: 12px;
+}
+
+
+a.dropdown-item{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    
+}
+.Deposit{
+    display: flex;
+    font-size: 12px;
+    /* justify-content: space-between; */
+    /* padding-left: 38px; */
+}
+
+.Sportbook {
+    
+    height: 49px;
+    display: flex;
+    float: inline-end;
+    flex-direction: row;
+    /* align-content: stretch; */
+    /* justify-content: center; */
+    align-items: flex-end;
+    margin-left: -84px;
+}
+
+
+#dropdown-basic{
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px;
+    
+    
+}
+
+.CountryFlags{
+     /* width: 41px;
+    background: transparent;
+    border: 1px solid #bb8911;
+    line-height: 1.4;   
+    margin-right: 10px;  */
+
+    width: 53px;
+    position: fixed;
+    float: left;
+    margin-left: -61px;
+    background: transparent;
+    border: transparent;
+}
+
+.DropdownMenuButton{
+    
+    background-color: #f6f6f6;
+    border: 1px solid #c6d5e0;
+    border-top-color: #cbcbca;
+
+}
+.RefreshIcons{
+    display: flex;
+
+    align-items: center;
+}
+/* ---------------- Third Navbar --------------------- */
+.ThirdContainer{
+    width: 100%;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.ExchangeThird{
+    background-color:black !important;
+    /* margin-left: -29px; */
+    margin-top: -14px;
+    width: 100% !important;
+    
+    
+}
+.ThirdNavLink{  
+    color: white !important;
+    font-size: 12px;
+    font-weight: bold;
+    border-right: 1px solid #303030;
+}
