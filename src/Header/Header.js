@@ -1,22 +1,10 @@
 import React from "react";
 import "./Header.css";
 import Flag from 'react-world-flags'
-import {
-  GoDeviceMobile,
-  GoSearch,
-  GoArrowUp,
-  GoArrowDown,
-} from "react-icons/go";
+import { GoDeviceMobile, GoSearch,} from "react-icons/go";
 import { TiRefresh } from "react-icons/ti";
-import CountryDropdown from "country-dropdown-with-flags-for-react";
-import {
-  Container,
-  Dropdown,
-  NavDropdown,
-  Button,
-  Navbar,
-  Nav,
-} from "react-bootstrap";
+import { Container, Dropdown, Button, Navbar, Nav } from "react-bootstrap";
+import Logo from "../Images/Capture.PNG";
 const Header = () => {
   return (
     <div className="Header-container">
@@ -29,18 +17,9 @@ const Header = () => {
           <div className="header">
             <div className="headings">
               <span className="mainSpan">
-                <h1>
-                  {" "}
-                  <span>
-                    <GoArrowUp className="ArrowUp" />{" "}
-                  </span>{" "}
-                  <span>
-                    <GoArrowDown className="ArrowDown" />
-                  </span>
-                  Betfair
-                </h1>
+                <img src={Logo} alt="Logo Image"/>
               </span>
-              {/* <h1 ><img src={LogoO} alt="logo" />  Betfair</h1> */}
+             
             </div>
             <div className="headerUL">
               <ul>

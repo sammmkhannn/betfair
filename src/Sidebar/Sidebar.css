@@ -1,7 +1,60 @@
-.sajid{
-    position: relative;
-    /* background-color: red; */
-    
-    
 
+.pro-inner-item{
+    height: 27px;
 }
+.pro-sidebar .pro-menu {
+   
+    
+    margin-left: -29px;
+    height: 500px;
+   
+}
+
+
+.react-slidedown pro-inner-list-item{
+    padding-left: 0px;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item.pro-sub-menu .pro-inner-list-item{
+    position: relative;
+    background: transparent;
+    
+}
+
+
+.Scroll {
+    padding-left: 0px;
+    font-size: 7px;
+    background: white;
+    border-bottom: 1px solid #dfdfdf;
+    color: #308ED0;
+}
+
+.Scroll li{
+    border-bottom: 1px solid #dfdfdf;
+    padding-left: -10px;
+    
+}
+
+/* .ListItems{ */
+    /* padding: 10px 20px 10px 0;
+    margin-left: -10px;
+} */
+
+
+.pro-menu shaped square inner-submenu-arrows{
+    background: whitesmoke;
+}
+
+.pro-sidebar-inner{
+    width: 193px;
+}
+.pro-sidebar-inner li{
+    font-size: 12px;
+    
+}
+.pro-menu shaped square inner-submenu-arrows li{
+
+    font-size: 12px;
+}
+

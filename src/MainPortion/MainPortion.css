@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.ImagesDiv{
+   display: flex;
+   /* justify-content: center; */
+   column-gap: 10px;
+   padding: 10px;    
+   
+
+   
+}
+.ThreeImg{
+    background-color: white;
+    border-radius: 2px 2px 0 0;
+    /* box-sizing: border-box; */
+    /* box-shadow: -1px -1px 11px 0px #c2c2c2;/ */
+
+    
+   box-shadow:  0 1px 3px 0 rgb(0 0 0 / 40%);
+    
+}
+.MainBody{
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-around;
+}
+.MainContainer{
+    background-color: #DFE5E5;
+    font-size: 12px;
+    height: 100vh;
+    width: 100%;
+}
+.imagesBody{
+
+}
+.imagesBody img{
+    width: 237px;
+    height: 114px;
+}
+.ImgHeading p{
+    color: white;
+    background-color: black;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 6px;
+}
+
+.ImgPara p{
+    /* padding: 6px; */
+    font-size: 14px;
+    color: #1e1e1e;
+    font-weight: 700;
+    margin-left: 6px;
+} 
+.imgText{
+    height: 150px;
+}
+.imgText span{
+    text-align: left;
+}
+.NavLinkss {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-weight: 700;
+    line-height: 0;
+    padding: 8px;
+    font-size: 12px;
+    text-decoration: none;
+    padding-left: 8px;
+    color: #167ac6;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+   
+    
+}
+
+.NavLinkss p{
+color: #167ac6;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 700;
+}
+/* .ImgPara h6{
+    background-color: black;
+} */
+
+
+/* font-weight: 700;
+font-size: 12px;
+text-decoration: none;
+padding-left: 8px;
+line-height: 1.5;
+color: #167ac6;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+display: block; */
