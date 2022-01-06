@@ -1,13 +1,15 @@
 
 import './App.css';
+import AllComponents from './AllComponents'
 import Header from './Header/Header';
-import Sidebar from './Sidebar/Sidebar';
-
+import Practice from './Practice/practice'
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Sidebar />
+            <Header/>
+          <AllComponents /> 
+          
+          {/* <Practice /> */}
     </div>
   );
 }
