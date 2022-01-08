@@ -1,5 +1,6 @@
 import React from 'react'
 import Sidebar from '../Sidebar/Sidebar'
+import './index.css'
 import Header from '../Header/Header'
 import MainPortion from '../MainPortion/MainPortion'
 import Right from '../RightSidebar/Right'
@@ -16,12 +17,11 @@ const index = () => {
                     
                 </div>
 
-                <div className='col-8'>
+                <div className='col-7'>
                         <MainPortion />
-                      
                 </div>
 
-                <div className='col-2'>
+                <div className='col-3'>
                     <Right/>
                    
                 </div>

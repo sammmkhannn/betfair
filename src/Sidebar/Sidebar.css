@@ -3,8 +3,6 @@
     height: 27px;
 }
 .pro-sidebar .pro-menu {
-   
-    
     margin-left: -29px;
     height: 500px;
    
@@ -58,3 +56,6 @@
     font-size: 12px;
 }
 
+.pro-sidebar-inner{
+    width: 81%;
+}

@@ -1,12 +1,57 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
-}
-.RightContainer{
-    /* background-color:   #DFE5E5;
+} */
+ .RightContainer{
+    background-color: #DFE5E5;
     height: 100vh;
-    width: 100%; */
+    width: 100%;
+} 
+.RightSidebar{
+   
+  
+} 
+.Items{
+    width: 100%;
+    box-sizing: border-box;
+    /* margin-left: -47px; */
 }
-.sajid{
-    padding-block: ;
+.Items ul {
+    
+    background-color: white;
+    box-shadow:  0 1px 3px 0 rgb(0 0 0 / 40%);
+
+}
+.Items li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 4px;
+}
+.playNow{
+    color: white;
+    font-weight: bold;
+    background-color: #20A052;
+}
+.itemsul li{
+    position: relative;
+}
+.li31{
+  background-color: #4DB375;
+  padding: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.Arrow{
+    cursor: pointer;
+}
+.inPlay{
+    padding-left: 30px;
+}
+.ol, ul {
+    padding-left: 0 !important;
 }
