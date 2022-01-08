@@ -1,0 +1,324 @@
+/* .......................firstnavbar...................................... */
+
+.background{
+    /* background-color: red; */
+    background: #FFB80C;
+    height: 4vh;
+    width: 100%;
+    
+    
+}
+
+.overall{
+    /* margin: -40px 50px 0 50px; */
+}
+
+.betfair{
+    color: #1e1e1e !important;
+    font-weight: 600;
+
+
+}
+.help{
+    color: black;
+    font-weight: 500;
+}
+
+.account{
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    /* position: relative; */
+    
+
+}
+
+.dropdown-menu show{
+    width: 185px !important;
+}
+
+
+#collasible-nav-dropdown{
+        color: black;
+        /* margin-left: 295px */
+       
+        /* background: black; */
+        /* margin-right: 30px; */
+        /* margin: 0px 40px 0px 40px; */
+}
+
+#collasible-nav-dropdown:hover{
+    background-color: #1e1e1e;
+    color: white;
+    /* margin-left: -240px; */
+    
+}
+
+a .NavDropdown.Item {
+    background: grey;
+    
+}
+
+.BoldBg {
+    font-weight: 500;
+    background: #C3C3C3;
+    padding: 5px 25px;
+    display: flex;
+    /* align-content: flex-start; */
+    /* background: #868383; */
+}
+.sajid{
+    float: right;
+    /* margin-top: -32px; */
+    
+}
+
+
+
+.Dwdraw{
+    float: right;
+    margin-top: -32px;
+}
+
+.button_main{
+    margin-right: 40px !important;
+}
+
+.Main{
+    font-size: 15px;
+    margin-right: 150px;
+    /* position: absolute; */
+    
+}
+
+.refresh{
+   margin-top: 5px;
+   
+}
+
+
+.deposit{
+    background: #C3C3C3 !important;
+    /* margin-left: 20px !important; */
+    border-radius   : 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+    font-weight: 500 !important;
+    height: 25px;
+    /* width: 70px; */
+    margin-top: 10px;
+    /* position: relative; */
+}
+
+
+ /* .NavRight { */
+    /* margin-right: 260px;
+    margin-top: -40px; */
+    /* border: 1px solid red; */
+    
+ /* }  */
+
+
+
+.bodycontainer{
+    background-color: #FFB80C;
+    display: flex;
+    height: 160px;
+    padding: 0;
+
+
+}
+
+
+/* .maincontainer{
+    display: flex;
+    flex-direction: row;
+} */
+
+.subcontainer{
+    border: 1px solid red;
+}
+
+
+/* .betfair h1{
+    height: 10vh;
+    width: 100%;
+    margin-top: -1px;
+} */
+
+/* .Navbar home{
+    color: black;
+    font-weight: 500;
+} */
+
+/* ............................secondnavbar............................ */
+
+.secondNavbar{
+    background-color: #FFB80C;
+}
+.Exchange{
+    font-size: 12px;
+    margin-left: -75px;
+   
+}
+.secondNavLink{
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.DropDownButton{
+    background: transparent;
+    color: #1e1e1e !important;
+    font-size: 12px;
+   
+    
+}
+
+.dropdown-basic{
+    color: white;
+}
+
+
+
+.DropDownButton:hover{
+    background-color: #1e1e1e;
+    color: white;
+    background: grey;
+
+}
+
+
+
+/* .DropdownMenuButton{
+    border: 1px solid red;
+} */
+
+
+.DropdownMenuButton button{
+    display: flex;
+    border: transparent;
+    background: transparent;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+.cashBalance{
+    background-color: #DFDFDF;
+    /* border: 1px solid red; */
+}
+
+.BonusBalance{
+    background-color: #DFDFDF;
+}
+
+.ExchangeBonus{
+    display: flex !important;
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+.ViewDetail{
+    display: flex !important;
+    width: 186px;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: flex-end;
+}
+.ViewDetail button{
+    font-size: 12px;
+}
+
+
+
+a.dropdown-item{
+    display: flex;
+    justify-content: space-between;
+    width: 182px;
+    /* width: 340px; */
+}
+.Deposit{
+    display: flex;
+    font-size: 12px;
+    /* justify-content: space-between; */
+    /* padding-left: 38px; */
+}
+
+.Sportbook {
+    
+    height: 49px;
+    display: flex;
+    float: inline-end;
+    flex-direction: row;
+    /* align-content: stretch; */
+    /* justify-content: center; */
+    align-items: flex-end;
+    margin-left: -84px;
+}
+
+
+#dropdown-basic{
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 13px;
+    
+    
+}
+
+.CountryFlags{
+    width: 35px;
+    background: transparent;
+    border: 1px solid #bb8911;
+    line-height: 1.9; 
+    height: 35px; 
+
+
+    /* background-position: -11px -134px;
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 9px;
+    display: inline-block; */
+
+}
+
+/* Second Dropdown starts here */
+
+.secondDrop{
+    /* border: 1px solid red; */
+}
+
+
+.DropdownMenuButton{
+    
+    background-color: #f6f6f6;
+    border: 1px solid #c6d5e0;
+    border-top-color: #cbcbca;
+    margin-left: -116px;
+
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: -234px; */
+
+
+
+    /* background-position: -11px -134px;
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 9px;
+    display: inline-block; */
+}
+
+.DropdownMenuButton{
+    width: 400px !important;
+    margin-left: -300px !important;
+}
+
+.dropdown-basic{
+    margin-left: -80px !important   ;
+}

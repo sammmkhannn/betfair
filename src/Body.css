@@ -1,0 +1,211 @@
+.BodyContainer{
+    background-color: #EEF2F3 !important;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    
+}
+
+.Container{
+    box-shadow: 0px 1px 0px 2px #D3D6D7!important;
+    width: 85% !important;
+    height: 80vh !important;
+    margin: 0 auto; 
+    position: relative;
+    background-color: #FFFFFF;
+    padding: 30px 16px;
+   
+    
+}
+
+.SubContainer{
+    background-color: #B1C8D9;
+    width: 95%;
+    height: 20vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.ContainerChild_1{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Child_1_Title{
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+    margin-bottom: 1rem !important;
+    margin-top: 10px;
+}
+
+.Child_1_Dropdown_Container{
+    /* width: 95%; */
+    height: 30vh;
+    padding: 10px 15px;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.sports-dropdown{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+.sporttype{
+    width: 65px;
+    font-size: 11px;
+    font-family: Tahoma,Verdana,Arial,Sans-Serif;
+    color: #000;
+}
+
+.select-all{
+    font-family: inherit !important;
+    font-size: 11px !important;
+    line-height: inherit !important;
+    width: 160px;
+    height: 1rem;
+    margin: 5px;
+    padding: -5px;
+}
+
+.status_dropdown{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+.bet_status{
+    width: 65px;
+    font-size: 12px;
+    font-size: 11px;
+    font-family: Tahoma,Verdana,Arial,Sans-Serif;
+    color: #000;
+}
+
+.unmatched{
+    font-family: inherit !important;
+    font-size: 11px !important;
+    line-height: inherit !important;
+    width: 150px;
+    height: 1rem;
+    margin: 5px;
+    padding: -15px;
+
+}
+
+.periodContainer{
+    width: fit-content;
+    height: fit-content;
+    margin: 30px 0 0 0;
+}
+
+.period_para{
+    font-size: 12px;
+    margin: 5px 0 5px 45px;
+}
+
+.period{
+    width: 65px;
+    font-size: 11px;
+    font-family: Tahoma,Verdana,Arial,Sans-Serif;
+    color: #000;
+}
+
+.last_hour{
+    font-family: inherit !important;
+    font-size: 11px !important;
+    line-height: inherit !important;
+    width: 150px;
+    height: 1rem;
+    margin-left: -20px;
+}
+
+.DateContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.Input_Date1{
+    font-family: inherit !important;
+    font-size: 11px !important;
+    line-height: inherit !important;
+    width: 150px;
+    margin-left: 45px;
+    padding: 1px 0;
+}
+
+.Data_para1{
+    font-size: 12px;
+    margin: 5px 0 0 45px;
+}
+
+.to_text{
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.Input_Date2{
+    font-family: inherit !important;
+    font-size: 11px !important;
+    line-height: inherit !important;
+    width: 150px;
+    padding: 1px 0;
+}
+
+.Data_para2{
+    font-size: 12px;
+    margin: 5px 0 0 0;
+}
+
+.btn_Container{
+    margin: 85px 30px 0 0;
+}
+
+.btn_Container button{
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 2px 4px;
+}
+
+
+/* .betting-history-header{
+    background-color: #B1C8D9; 
+    width: 95%;
+    height: 30vh;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid green;
+    
+} */
+
+
+/* .sports-dropdown{
+     margin-top: 30px; 
+    border: 1px solid blue;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    
+} */
+
+/* .status_dropdown{
+    border: 1px solid blue;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+} */
+
+/* .betting-history-header-title{
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+    margin-bottom: 1rem !important;
+    line-height: 1.6 !important;
+    box-sizing: border-box !important;
+    display: block !important;
+
+} */
