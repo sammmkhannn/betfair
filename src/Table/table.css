@@ -1,0 +1,26 @@
+/* tr:nth-child(odd){
+    background-color: #F694AA;
+}
+tr:nth-child(even){
+    background-color: #A6D8FF;
+} */
+
+.Table{
+    background-color: white ;
+}
+.infoIcons{
+    font-size: 12px;
+    background-color: #BFBFBF;
+}
+ .Tblue{
+    background-color: #75C2FD!important;
+}
+.TPink{
+    background-color: #F694AA !important;
+
+}
+.TableSidebar{
+    background-color: #F6F6F6 !important;
+    float: left;
+    background-color: white !important;
+}
