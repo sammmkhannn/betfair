@@ -8,9 +8,7 @@ import {Container,Row,Col} from 'react-bootstrap'
 const index = () => {
     return (
         <div className='AllContainer'>
-        <div>
-            
-        </div>
+       
             <div className='row'>
                 <div className='col-2'>
                     <Sidebar />

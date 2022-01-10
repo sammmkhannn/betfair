@@ -12,9 +12,10 @@
   
 } 
 .Items{
-    width: 100%;
+    width: 86%;
     box-sizing: border-box;
-    /* margin-left: -47px; */
+    margin-left: 35px;
+    margin-top: 9px;
 }
 .Items ul {
     

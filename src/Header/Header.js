@@ -103,8 +103,11 @@ const Header = () => {
                   id="dropdown-basic"
                   className="DropDownButton4"
                 >
-                  Main <span> €0.02 </span> <br />
+                <div>
+                <span > Main</span>
+                   <span style={{paddingLeft: "50px"}}> €0.02 </span> <br />
                   Exchange Bonus €0.00
+                </div>
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu className="DropdownMenuButton">

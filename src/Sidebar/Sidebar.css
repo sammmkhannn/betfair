@@ -26,6 +26,8 @@
     background: white;
     border-bottom: 1px solid #dfdfdf;
     color: #308ED0;
+    height: 62vh;
+    overflow-y: scroll;
 }
 
 .Scroll li{
@@ -38,7 +40,6 @@
     /* padding: 10px 20px 10px 0;
     margin-left: -10px;
 } */
-
 
 .pro-menu shaped square inner-submenu-arrows{
     background: whitesmoke;
@@ -58,4 +59,20 @@
 
 .pro-sidebar-inner{
     width: 81%;
+}
+.pro-sidebar {
+    color: #adadad !important;
+    height: 100% !important; 
+    width: 100% !important;
+    min-width: 248px !important;
+    text-align: left !important;
+    transition: width, left, right, 0.3s !important;
+    position: relative !important;
+    position: sticky !important;
+    top: 0;
+    /* z-index: 1009 !important; */
+}
+.Sidebarrrr{
+    position: sticky !important;
+    top: 0!important;
 }

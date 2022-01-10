@@ -10,6 +10,8 @@ import Flag from 'react-world-flags'
 
 import './MainPortion.css'
 import TableData from '../Table/TableData'
+import GamesTable from '../GamesTable/GamesTable'
+import Footer from '../Footer/Footer'
 const MainPortion = () => {
     return (
         <div className='MainContainer'>
@@ -126,7 +128,11 @@ const MainPortion = () => {
                     {/* ------------------------ TableData Portion ------------------------------------- */}
                     <TableData/>
 
+                    {/* ------------------------------------  Games table -------------------- */}
+                        <GamesTable/>
 
+                    {/* ----------------------------- Footer ------------------------------------------ */}
+                    <Footer />
                 </div>
             </Container>
 
