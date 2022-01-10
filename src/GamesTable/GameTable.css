@@ -1,0 +1,188 @@
+.GamePortion{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+
+}
+.Football p{
+    color: white;
+    background-color: black;
+    width: 100%;
+    cursor: pointer;
+
+    
+
+}
+.Football > ul {
+    list-style-type: none;
+}
+.FootballTime{
+display:flex;
+/* justify-content: center;
+align-items: center; */
+
+}
+.END {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 700;
+    background-color: #4DB375;
+    color: white;
+
+
+}
+.ENDD{
+    /* display: flex; */
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 700;
+    padding-left: 5px;
+    background-color: #4DB375;
+    color: white;
+}
+.INPLAY{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 700;
+    padding-left: 5px;
+    background-color: #4DB375;
+    color: white;
+}
+.ENDPOINTS{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 700;
+    padding-left: 5px;
+    background-color: #787878;
+    color: white;
+}
+.Points{
+    /* position: relative; */
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 700;
+    padding-left: 5px;
+    background-color: #4B4B4B;
+    /* padding: 10px; */
+    color: white;
+}
+.ENDDs{
+    display: table-cell;
+    /* vertical-align: middle;
+    text-align: center; */
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.GameHeadings{
+    text-align: left;
+    color: white;
+    background-color: black !important;
+}
+.GameHeadings th {
+    padding-left: 5px;
+
+}
+.FootballMain{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 48px;
+    font-size: 12px;
+    line-height: 18px;
+    box-sizing: border-box;
+    background-color: #fff;
+
+    
+}
+
+.Cricket p {
+    color: white;
+    background-color: black;
+    width: 100%;
+    cursor: pointer;
+
+}
+.Cricket >ul {
+    list-style-type: none;
+}
+
+.Tennis p {
+    color: white;
+    background-color: black;
+    width: 100%;
+    cursor: pointer;
+
+}
+.Tennis > ul {
+    list-style-type: none;
+
+}
+
+
+.Timing{
+    background-color: #F6F6F6 !important;
+  
+    text-align: left !important;
+    width: 67px;    
+
+    /* padding-right: 4px !important; */
+}
+.Hockey{
+    display: flex;
+    cursor: pointer;
+}
+.hockeyButtons {
+    cursor: pointer;
+    text-align: right;
+    font-weight: bold;
+    color: #565656;
+    
+}
+.hockeyButtonsss{
+    
+    font-weight: 700;
+    border-bottom: transparent;
+    cursor: pointer;
+    text-align: right !important;
+    color: #565656;
+    border-top: 1px solid #565656  !important;
+
+} 
+
+
+.Timings{
+    background-color: #4b4b4b !important;
+    color: white ;
+    font-size: 8px;
+    font-weight: 700;
+}
+.Timings :hover{
+    color: white;
+}
+/* .hockeyButtons :hover  {
+    
+} */
+
+.Pointer{
+    cursor: pointer;
+    text-align: left;
+   
+}
+
+ .Rug{
+    background: white;
+    color: white;
+    padding: 17px;
+    border: transparent;
+    
+}  
+.Rug:hover{
+    background-color: white !important;
+    color: white !important;
+}

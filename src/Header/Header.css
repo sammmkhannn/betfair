@@ -2,6 +2,7 @@
     background-color: #FFB80C;
     display: flex;
     height: 40px;
+    justify-content: space-between;
 
 }
 /* .containerBody{
@@ -22,6 +23,12 @@
 .ArrowDown{
    
 } */
+
+.Header-container{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
 .headerUL ul{
     display: flex;
     list-style: none;

@@ -18,9 +18,9 @@
 .MainBody {
   display: flex;
   align-content: flex-end;
-  justify-content: space-around;
-  margin-left: 52px;
-  position: sticky;
+  justify-content: space-between;
+  /* position: sticky; */
+  flex-direction: row;
 }
 .MainContainer {
   background-color: #dfe5e5;

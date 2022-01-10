@@ -5,22 +5,86 @@ tr:nth-child(even){
     background-color: #A6D8FF;
 } */
 
+
+
+.SportsHighlights{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 2px;
+}
+.SportsHighlights p{
+    
+    text-align: left;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+
+}
+.TableHeader{
+    background-color: #e2e2e2;
+}
 .Table{
     background-color: white ;
 }
 .infoIcons{
     font-size: 12px;
     background-color: #BFBFBF;
+    
+    font-weight: bold;
 }
  .Tblue{
     background-color: #75C2FD!important;
+   
 }
 .TPink{
     background-color: #F694AA !important;
 
 }
 .TableSidebar{
-    background-color: #F6F6F6 !important;
-    float: left;
-    background-color: white !important;
+    text-align: left;
+    font-weight: 700;
+}
+/* .Date{
+
+
+} */
+.youtube{
+    height: 30px;
+    width: 17px;
+}
+.IN-PLAY{
+    background-color: #20A052 !important;
+    color: white !important;
+    width: 61px !important;
+
+
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 700;
+    
+}
+.Tbluees{
+    width: 50px;
+    background-color: #75C2FD!important;
+    height: 40px !important;
+}
+.TPinkss{
+    width: 50px;
+    background-color: #F694AA !important;
+    height: 100% !important;
+}
+.Closed{
+    border:2px solid #B30000;
+    height: 100% !important;
+    padding: 0 !important;
+    position: relative;
+    /* background-color: red !important; */
+}
+.ClosedDiv{
+ background: linear-gradient(black , black , black );
 }
